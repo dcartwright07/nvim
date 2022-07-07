@@ -1,0 +1,27 @@
+{
+  "eslint.autoFixOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "python",
+    "json",
+    "css",
+    "scss",
+    "less",
+    "Markdown",
+    "javascript",
+    "javascript.jsx",
+    "php"
+  ],
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "tsserver.formatOnType": false,
+  "tsserver.enable": true,
+  "coc.preferences.formatOnType": true,
+  "suggest.enablePreselect": true,
+  "suggest.noselect": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "intelephense.diagnostics.undefinedMethods": false
+}
