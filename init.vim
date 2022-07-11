@@ -41,7 +41,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'alvan/vim-closetag'
-Plug 'akinsho/toggleterm.nvim', {'tag' : 'v1.*'}
+Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
 
 call plug#end()
 
