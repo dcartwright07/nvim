@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/vader.vim'
 Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
 Plug 'yaegassy/coc-volar-tools', {'do': 'yarn install --frozen-lockfile'}
 
@@ -212,25 +213,7 @@ let g:airline_theme='base16_monokai'
 let g:airline#extensions#tabline#buffer_min_count = 2
 
 let g:vue_pre_processors = ['scss']
-let g:closetag_filetypes = 'html,xhtml,phtml,vue'
-
-" let g:javascript_conceal_function             = "ƒ"
-" let g:javascript_conceal_null                 = "ø"
-" let g:javascript_conceal_this                 = "@"
-" let g:javascript_conceal_return               = "↵"
-" let g:javascript_conceal_undefined            = "¿"
-" let g:javascript_conceal_NaN                  = "ℕ"
-" let g:javascript_conceal_prototype            = "¶"
-" let g:javascript_conceal_static               = "•"
-" let g:javascript_conceal_super                = "Ω"
-
-" let g:typescript_conceal_function             = "ƒ"
-" let g:typescript_conceal_null                 = "ø"
-" let g:typescript_conceal_undefined            = "¿"
-" let g:typescript_conceal_this                 = "@"
-" let g:typescript_conceal_return               = "↵"
-" let g:typescript_conceal_prototype            = "¶"
-" let g:typescript_conceal_super                = "Ω"
+let g:closetag_filetypes = 'html,xhtml,phtml,vue,velocity'
 
 
 try

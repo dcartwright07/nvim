@@ -17,7 +17,7 @@
   ],
   "coc.preferences.extensionUpdateCheck": "daily",
   "tsserver.formatOnType": false,
-  "tsserver.enable": true,
+  "tsserver.enable": false,
   "coc.preferences.formatOnType": true,
   "suggest.enablePreselect": true,
   "suggest.noselect": false,
